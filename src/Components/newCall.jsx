@@ -64,6 +64,30 @@ class NewCall extends React.Component {
                                 label={`Motivation`}
                             />
                         </div>
+                        <div key={`Common-Ground`} className="mb-3">
+                            <Form.Check
+                                custom
+                                type={'checkbox'}
+                                id={`Common-Ground`}
+                                label={`Common Ground`}
+                            />
+                        </div>
+                        <div key={`Compliment`} className="mb-3">
+                            <Form.Check
+                                custom
+                                type={'checkbox'}
+                                id={`Compliment`}
+                                label={`Compliment`}
+                            />
+                        </div>
+                        <div key={`Social-Proof`} className="mb-3">
+                            <Form.Check
+                                custom
+                                type={'checkbox'}
+                                id={`Social-Proof`}
+                                label={`Social-Proof`}
+                            />
+                        </div>
                         <Form.Group>
                             <Form.Label>Needs</Form.Label>
                             <Form.Control as="textarea" rows="5" />
